@@ -549,13 +549,13 @@
     tsutils "^3.17.1"
 
 "@wdio/cli@^6.0.9":
-  version "6.0.9"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.0.9.tgz#b28764ef2f50f568b32d48d165133e067b6137e1"
-  integrity sha512-gbkX3fBWqfhBNceRjxSsPkFRTzYKdbO5u6yz9+mPi8eFeQ5HUEsiqZSpAUWOgnGEWcoKSb1+2RJnlnkTdsMx8w==
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.0.11.tgz#07766e0cd5ef6b6aaa4aa3222c523696c0f58579"
+  integrity sha512-8+Jh8H7yJeh8B1QNak6vM0yz8qhwseP2v8RpHxS2AGK4vpKUGxzbWx5pY1wtvzNQlPY7syx+2uiBY5xnJYh4mA==
   dependencies:
-    "@wdio/config" "6.0.8"
-    "@wdio/logger" "6.0.8"
-    "@wdio/utils" "6.0.8"
+    "@wdio/config" "6.0.11"
+    "@wdio/logger" "6.0.11"
+    "@wdio/utils" "6.0.11"
     async-exit-hook "^2.0.1"
     chalk "^3.0.0"
     chokidar "^3.0.0"
@@ -567,9 +567,18 @@
     lodash.pickby "^4.6.0"
     lodash.union "^4.6.0"
     log-update "^4.0.0"
-    webdriverio "6.0.9"
+    webdriverio "6.0.11"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
+
+"@wdio/config@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.0.11.tgz#04da6599fd85dba89a79fba096c843b8db329301"
+  integrity sha512-vOKxu6Yt7eVOUoemL8N73BtISAkmg9AbXejMeqHqOCw0Dlrx0mPDCRLuTGS+d5JiWk2Er7o+uKNyPwtk3Z64Aw==
+  dependencies:
+    "@wdio/logger" "6.0.11"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
 
 "@wdio/config@6.0.8":
   version "6.0.8"
@@ -591,6 +600,16 @@
     async-exit-hook "^2.0.1"
     stream-buffers "^3.0.2"
 
+"@wdio/logger@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.11.tgz#fa2717dec9ece80fffcbfcbde247b6383c31f612"
+  integrity sha512-9Nb3x/D8W/NL8VtudCwdH31jq9mD7Bj7/FXYPJmVSxCzCz6+UgtfV2buHI9h4HLecrOyH4J18AkhgnfFkdl0xQ==
+  dependencies:
+    chalk "^3.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/logger@6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.8.tgz#05bff1c02f207588bd834ee3bc1cff01f506b486"
@@ -610,10 +629,22 @@
     "@wdio/utils" "6.0.8"
     mocha "^7.0.1"
 
+"@wdio/protocols@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.11.tgz#b3358fdee8ee5967f4c16d243a14bf7142ae76f5"
+  integrity sha512-9zFJawv3P7miLeU/9V0II+Spd5VDeQMewTxWmITvUHINfl+Re6Sxw8LrurMAu7UiRVFeQATUW1jWveqinQNIyQ==
+
 "@wdio/protocols@6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.8.tgz#4565e68f894533ba04c202bdcf8846974e3771cf"
   integrity sha512-Fe+GqgNXq4ctyA1va/8Nzq14xRvO24zEaVZlCogNy8IH7TUJlN0HE7eXWnlC49v7+IUl9XDaMqCFDEkkKqaevQ==
+
+"@wdio/repl@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-6.0.11.tgz#d67803e25edd242dbdb26f89589cda91676a8baa"
+  integrity sha512-/W36hsAEPmkBhOpK12sb1XLaYYjWWaoK7lDR3C7QezxcWIP22Pck38joHrFwZe2RJdyT9spNf4dQ14y1BW6M/w==
+  dependencies:
+    "@wdio/utils" "6.0.11"
 
 "@wdio/repl@6.0.8":
   version "6.0.8"
@@ -660,6 +691,13 @@
   dependencies:
     "@wdio/logger" "6.0.8"
     fibers "^4.0.1"
+
+"@wdio/utils@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.0.11.tgz#f8d3a68203fe840d68e08a1850256414cc27022a"
+  integrity sha512-raB3v+2zq1TlQhzdhwwe3/WhEOul1mlXDyth2B6GewB1ORGHQzgwqjLRbVS95eXPrV1m1nXFk1IihtH3zaSDmQ==
+  dependencies:
+    "@wdio/logger" "6.0.11"
 
 "@wdio/utils@6.0.8":
   version "6.0.8"
@@ -1508,7 +1546,7 @@ caller-path@^2.0.0:
 
 callsites@^2.0.0:
   version "2.0.0"
-  resolved "http://registry.npmjs.org/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
+  resolved "https://registry.npmjs.org/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
 
 callsites@^3.0.0:
   version "3.1.0"
@@ -1572,17 +1610,9 @@ chalk@^1.0.0, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.1.0, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
-
-chalk@^2.3.0, chalk@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -1858,7 +1888,7 @@ color@^3.0.0:
 
 colors@~1.1.2:
   version "1.1.2"
-  resolved "http://registry.npmjs.org/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
+  resolved "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 commander@^2.18.0:
   version "2.19.0"
@@ -2106,7 +2136,7 @@ crypto-browserify@^3.11.0:
 
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
-  resolved "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+  resolved "https://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
 css-declaration-sorter@^4.0.1:
   version "4.0.1"
@@ -2429,6 +2459,19 @@ detect-libc@^1.0.2, detect-libc@^1.0.3:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
+devtools@6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.0.11.tgz#bd2161ca2824d2e4fcd02eaae0eaec71d1e9bd8c"
+  integrity sha512-28PAel5MMni9zbHOBT0ZzjjPIMTdb6oSXVifUqSOx53vCZhU66HnAYS/r9PBhPhtw8sd1fzEagHSePCkwCicQA==
+  dependencies:
+    "@wdio/config" "6.0.11"
+    "@wdio/logger" "6.0.11"
+    "@wdio/protocols" "6.0.11"
+    "@wdio/utils" "6.0.11"
+    chrome-launcher "^0.11.1"
+    puppeteer-core "^2.1.1"
+    uuid "^7.0.2"
+
 devtools@6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.0.8.tgz#145a6fecd3890a14bf5e4092bd9b3273425c5fd1"
@@ -2512,7 +2555,7 @@ domelementtype@1:
 
 domelementtype@~1.1.1:
   version "1.1.3"
-  resolved "http://registry.npmjs.org/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
+  resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
 
 domutils@^1.7.0:
   version "1.7.0"
@@ -4589,7 +4632,7 @@ json5@^0.5.0:
 
 json5@^1.0.1:
   version "1.0.1"
-  resolved "http://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  resolved "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   dependencies:
     minimist "^1.2.0"
 
@@ -5683,14 +5726,6 @@ os-locale@^3.0.0:
   resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-3.0.1.tgz#3b014fbf01d87f60a1e5348d80fe870dc82c4620"
   dependencies:
     execa "^0.10.0"
-    lcid "^2.0.0"
-    mem "^4.0.0"
-
-os-locale@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/os-locale/-/os-locale-3.1.0.tgz#a802a6ee17f24c10483ab9935719cef4ed16bf1a"
-  dependencies:
-    execa "^1.0.0"
     lcid "^2.0.0"
     mem "^4.0.0"
 
@@ -6874,7 +6909,7 @@ rgb2hex@^0.1.0:
 
 rgba-regex@^1.0.0:
   version "1.0.0"
-  resolved "http://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
+  resolved "https://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
 
 rimraf@2.6.3:
   version "2.6.3"
@@ -8099,6 +8134,18 @@ wdio-chromedriver-service@^5.0.2:
   dependencies:
     fs-extra "^0.30.0"
 
+webdriver@6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.11.tgz#1c3b2e3eededa43831c8880e8ae38d466ac96bc5"
+  integrity sha512-xhZfSHul3ZUb/leoxSzH+fCDfPPgBGxsVJdmBvz/FkPWt6gsNZakf1Nhp5HarNCuiX4dxvwAcog52b+YoFyG3g==
+  dependencies:
+    "@wdio/config" "6.0.11"
+    "@wdio/logger" "6.0.11"
+    "@wdio/protocols" "6.0.11"
+    "@wdio/utils" "6.0.11"
+    got "^10.7.0"
+    lodash.merge "^4.6.1"
+
 webdriver@6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.8.tgz#bf3560e07945f57d75098fe50f0ad11974dd72d1"
@@ -8110,6 +8157,28 @@ webdriver@6.0.8:
     "@wdio/utils" "6.0.8"
     got "^10.7.0"
     lodash.merge "^4.6.1"
+
+webdriverio@6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.0.11.tgz#8d2d9d952e573e198c0e6f376d0f54a7f679383c"
+  integrity sha512-jVFwRyBTGUYvuJg+gKcLwkxT9SbEjU1ljhJXf58/LtV0Bj44lr/nwP+KfyU9mU4og6eSkP9u2BL/p2XRjzjKNA==
+  dependencies:
+    "@wdio/config" "6.0.11"
+    "@wdio/logger" "6.0.11"
+    "@wdio/repl" "6.0.11"
+    "@wdio/utils" "6.0.11"
+    archiver "^3.0.0"
+    css-value "^0.0.1"
+    devtools "6.0.11"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    resq "^1.6.0"
+    rgb2hex "^0.1.0"
+    serialize-error "^6.0.0"
+    webdriver "6.0.11"
 
 webdriverio@6.0.9:
   version "6.0.9"
@@ -8389,13 +8458,6 @@ yargs-parser@^11.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.0.0.tgz#3fc44f3e76a8bdb1cc3602e860108602e5ccde8b"
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^18.1.1:
   version "18.1.2"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.2.tgz#2f482bea2136dbde0861683abea7756d30b504f1"
@@ -8413,7 +8475,7 @@ yargs-unparser@1.6.0:
     lodash "^4.17.15"
     yargs "^13.3.0"
 
-yargs@13.3.2, yargs@^13.3.0:
+yargs@13.3.2, yargs@^13.2.2, yargs@^13.3.0:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
   integrity sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
@@ -8445,22 +8507,6 @@ yargs@^12.0.5:
     which-module "^2.0.0"
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
-
-yargs@^13.2.2:
-  version "13.2.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.2.2.tgz#0c101f580ae95cea7f39d927e7770e3fdc97f993"
-  dependencies:
-    cliui "^4.0.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    os-locale "^3.1.0"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^13.0.0"
 
 yargs@^15.0.1:
   version "15.3.1"
