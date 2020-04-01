@@ -591,6 +591,16 @@
     async-exit-hook "^2.0.1"
     stream-buffers "^3.0.2"
 
+"@wdio/logger@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.11.tgz#fa2717dec9ece80fffcbfcbde247b6383c31f612"
+  integrity sha512-9Nb3x/D8W/NL8VtudCwdH31jq9mD7Bj7/FXYPJmVSxCzCz6+UgtfV2buHI9h4HLecrOyH4J18AkhgnfFkdl0xQ==
+  dependencies:
+    chalk "^3.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/logger@6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.8.tgz#05bff1c02f207588bd834ee3bc1cff01f506b486"
@@ -602,12 +612,12 @@
     strip-ansi "^6.0.0"
 
 "@wdio/mocha-framework@^6.0.8":
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.8.tgz#66885815ca0a01d7b758e3618c4226ebe77b473a"
-  integrity sha512-nLqwrzv+VriQWFk37nlrgzdFbf1Gz8fjX+viK+YaeLsD6/AsP2bMn5VHJJFk+hXFNib21dGKhkce9+sKmqK1Sw==
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.11.tgz#eb81cfa677edc7ef2b736d73622440aa27d5fd9f"
+  integrity sha512-OXrI0I9bSEp7ibcjFo7guQxcxFeX2/OZ/RpoofhrGUQdbLVRh6aVMKMHf/1UFZrdn8ZCdmWWVMIjLewt9jHVMg==
   dependencies:
-    "@wdio/logger" "6.0.8"
-    "@wdio/utils" "6.0.8"
+    "@wdio/logger" "6.0.11"
+    "@wdio/utils" "6.0.11"
     mocha "^7.0.1"
 
 "@wdio/protocols@6.0.8":
@@ -660,6 +670,13 @@
   dependencies:
     "@wdio/logger" "6.0.8"
     fibers "^4.0.1"
+
+"@wdio/utils@6.0.11":
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.0.11.tgz#f8d3a68203fe840d68e08a1850256414cc27022a"
+  integrity sha512-raB3v+2zq1TlQhzdhwwe3/WhEOul1mlXDyth2B6GewB1ORGHQzgwqjLRbVS95eXPrV1m1nXFk1IihtH3zaSDmQ==
+  dependencies:
+    "@wdio/logger" "6.0.11"
 
 "@wdio/utils@6.0.8":
   version "6.0.8"
@@ -1508,7 +1525,7 @@ caller-path@^2.0.0:
 
 callsites@^2.0.0:
   version "2.0.0"
-  resolved "http://registry.npmjs.org/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
+  resolved "https://registry.npmjs.org/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
 
 callsites@^3.0.0:
   version "3.1.0"
@@ -1858,7 +1875,7 @@ color@^3.0.0:
 
 colors@~1.1.2:
   version "1.1.2"
-  resolved "http://registry.npmjs.org/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
+  resolved "https://registry.npmjs.org/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 commander@^2.18.0:
   version "2.19.0"
@@ -2106,7 +2123,7 @@ crypto-browserify@^3.11.0:
 
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
-  resolved "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+  resolved "https://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
 css-declaration-sorter@^4.0.1:
   version "4.0.1"
@@ -2512,7 +2529,7 @@ domelementtype@1:
 
 domelementtype@~1.1.1:
   version "1.1.3"
-  resolved "http://registry.npmjs.org/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
+  resolved "https://registry.npmjs.org/domelementtype/-/domelementtype-1.1.3.tgz#bd28773e2642881aec51544924299c5cd822185b"
 
 domutils@^1.7.0:
   version "1.7.0"
@@ -4589,7 +4606,7 @@ json5@^0.5.0:
 
 json5@^1.0.1:
   version "1.0.1"
-  resolved "http://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  resolved "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   dependencies:
     minimist "^1.2.0"
 
@@ -6874,7 +6891,7 @@ rgb2hex@^0.1.0:
 
 rgba-regex@^1.0.0:
   version "1.0.0"
-  resolved "http://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
+  resolved "https://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
 
 rimraf@2.6.3:
   version "2.6.3"
