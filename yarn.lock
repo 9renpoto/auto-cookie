@@ -470,9 +470,10 @@
   version "1.4.28"
   resolved "https://registry.yarnpkg.com/@types/power-assert-formatter/-/power-assert-formatter-1.4.28.tgz#25b8fddb6322259c6b91c35338d39b0f8e524252"
 
-"@types/power-assert@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@types/power-assert/-/power-assert-1.5.0.tgz#4cc43717127cd81901555f905c55f02938120dcb"
+"@types/power-assert@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@types/power-assert/-/power-assert-1.5.3.tgz#9e415f8d5703375c3d5d7bf912ca7ac334faf0c6"
+  integrity sha512-PzV9RX7RRUBYLxp52ipXo9dSvBnqVR09mcvGt3hXuzoJt0EUpPPv0X3btjCQqrhQ1xLbyt0dfPiGfRfrZB4G0A==
   dependencies:
     "@types/empower" "*"
     "@types/power-assert-formatter" "*"
@@ -573,15 +574,6 @@
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
-"@wdio/config@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.0.11.tgz#04da6599fd85dba89a79fba096c843b8db329301"
-  integrity sha512-vOKxu6Yt7eVOUoemL8N73BtISAkmg9AbXejMeqHqOCw0Dlrx0mPDCRLuTGS+d5JiWk2Er7o+uKNyPwtk3Z64Aw==
-  dependencies:
-    "@wdio/logger" "6.0.11"
-    deepmerge "^4.0.0"
-    glob "^7.1.2"
-
 "@wdio/config@6.0.12":
   version "6.0.12"
   resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.0.12.tgz#90c5a7ca4900ef991653c64febd9cdfa6d52c55d"
@@ -602,16 +594,6 @@
     async-exit-hook "^2.0.1"
     stream-buffers "^3.0.2"
 
-"@wdio/logger@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.11.tgz#fa2717dec9ece80fffcbfcbde247b6383c31f612"
-  integrity sha512-9Nb3x/D8W/NL8VtudCwdH31jq9mD7Bj7/FXYPJmVSxCzCz6+UgtfV2buHI9h4HLecrOyH4J18AkhgnfFkdl0xQ==
-  dependencies:
-    chalk "^3.0.0"
-    loglevel "^1.6.0"
-    loglevel-plugin-prefix "^0.8.4"
-    strip-ansi "^6.0.0"
-
 "@wdio/logger@6.0.12":
   version "6.0.12"
   resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.12.tgz#9b4430e47f4ce5edfc0cbb05279a7ac604c2b908"
@@ -631,22 +613,10 @@
     "@wdio/utils" "6.0.12"
     mocha "^7.0.1"
 
-"@wdio/protocols@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.11.tgz#b3358fdee8ee5967f4c16d243a14bf7142ae76f5"
-  integrity sha512-9zFJawv3P7miLeU/9V0II+Spd5VDeQMewTxWmITvUHINfl+Re6Sxw8LrurMAu7UiRVFeQATUW1jWveqinQNIyQ==
-
 "@wdio/protocols@6.0.12":
   version "6.0.12"
   resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.0.12.tgz#b5f5c176e2021033452a738dcf3e4ece7b991c60"
   integrity sha512-MeOXn3AirCosPFirIZhpxKWCq71Z146MiVpBRVPZHpVvzCPQ6eR8ECKcH4XOD9SyZxqESlpbDXtZkCgQqglOIw==
-
-"@wdio/repl@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-6.0.11.tgz#d67803e25edd242dbdb26f89589cda91676a8baa"
-  integrity sha512-/W36hsAEPmkBhOpK12sb1XLaYYjWWaoK7lDR3C7QezxcWIP22Pck38joHrFwZe2RJdyT9spNf4dQ14y1BW6M/w==
-  dependencies:
-    "@wdio/utils" "6.0.11"
 
 "@wdio/repl@6.0.12":
   version "6.0.12"
@@ -693,13 +663,6 @@
   dependencies:
     "@wdio/logger" "6.0.12"
     fibers "^4.0.1"
-
-"@wdio/utils@6.0.11":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.0.11.tgz#f8d3a68203fe840d68e08a1850256414cc27022a"
-  integrity sha512-raB3v+2zq1TlQhzdhwwe3/WhEOul1mlXDyth2B6GewB1ORGHQzgwqjLRbVS95eXPrV1m1nXFk1IihtH3zaSDmQ==
-  dependencies:
-    "@wdio/logger" "6.0.11"
 
 "@wdio/utils@6.0.12":
   version "6.0.12"
@@ -2453,19 +2416,6 @@ detect-libc@^1.0.2, detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
-
-devtools@6.0.11:
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.0.11.tgz#bd2161ca2824d2e4fcd02eaae0eaec71d1e9bd8c"
-  integrity sha512-28PAel5MMni9zbHOBT0ZzjjPIMTdb6oSXVifUqSOx53vCZhU66HnAYS/r9PBhPhtw8sd1fzEagHSePCkwCicQA==
-  dependencies:
-    "@wdio/config" "6.0.11"
-    "@wdio/logger" "6.0.11"
-    "@wdio/protocols" "6.0.11"
-    "@wdio/utils" "6.0.11"
-    chrome-launcher "^0.11.1"
-    puppeteer-core "^2.1.1"
-    uuid "^7.0.2"
 
 devtools@6.0.12:
   version "6.0.12"
@@ -8087,18 +8037,6 @@ wdio-chromedriver-service@^5.0.2:
   dependencies:
     fs-extra "^0.30.0"
 
-webdriver@6.0.11:
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.11.tgz#1c3b2e3eededa43831c8880e8ae38d466ac96bc5"
-  integrity sha512-xhZfSHul3ZUb/leoxSzH+fCDfPPgBGxsVJdmBvz/FkPWt6gsNZakf1Nhp5HarNCuiX4dxvwAcog52b+YoFyG3g==
-  dependencies:
-    "@wdio/config" "6.0.11"
-    "@wdio/logger" "6.0.11"
-    "@wdio/protocols" "6.0.11"
-    "@wdio/utils" "6.0.11"
-    got "^10.7.0"
-    lodash.merge "^4.6.1"
-
 webdriver@6.0.12:
   version "6.0.12"
   resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.0.12.tgz#5be82fa9a580ee405686941dd5ddd1541f9a3a8d"
@@ -8110,28 +8048,6 @@ webdriver@6.0.12:
     "@wdio/utils" "6.0.12"
     got "^10.7.0"
     lodash.merge "^4.6.1"
-
-webdriverio@6.0.11:
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.0.11.tgz#8d2d9d952e573e198c0e6f376d0f54a7f679383c"
-  integrity sha512-jVFwRyBTGUYvuJg+gKcLwkxT9SbEjU1ljhJXf58/LtV0Bj44lr/nwP+KfyU9mU4og6eSkP9u2BL/p2XRjzjKNA==
-  dependencies:
-    "@wdio/config" "6.0.11"
-    "@wdio/logger" "6.0.11"
-    "@wdio/repl" "6.0.11"
-    "@wdio/utils" "6.0.11"
-    archiver "^3.0.0"
-    css-value "^0.0.1"
-    devtools "6.0.11"
-    grapheme-splitter "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    lodash.isobject "^3.0.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.zip "^4.2.0"
-    resq "^1.6.0"
-    rgb2hex "^0.1.0"
-    serialize-error "^6.0.0"
-    webdriver "6.0.11"
 
 webdriverio@6.0.12:
   version "6.0.12"
