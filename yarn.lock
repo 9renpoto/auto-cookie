@@ -612,12 +612,12 @@
     strip-ansi "^6.0.0"
 
 "@wdio/mocha-framework@^6.0.8":
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.11.tgz#eb81cfa677edc7ef2b736d73622440aa27d5fd9f"
-  integrity sha512-OXrI0I9bSEp7ibcjFo7guQxcxFeX2/OZ/RpoofhrGUQdbLVRh6aVMKMHf/1UFZrdn8ZCdmWWVMIjLewt9jHVMg==
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.12.tgz#63096bd956aa8b6f43836d2d1a52b4d8e0ec4fa0"
+  integrity sha512-PNWJgXwSna0fOKEiRrAq9Od8WKHZzgzfwtKFdgdQtUWAhHg7JnRMiMnEl+FQ6UXh30gZxVwU7TyZPU+2AnsQ/Q==
   dependencies:
-    "@wdio/logger" "6.0.11"
-    "@wdio/utils" "6.0.11"
+    "@wdio/logger" "6.0.12"
+    "@wdio/utils" "6.0.12"
     mocha "^7.0.1"
 
 "@wdio/protocols@6.0.11":
@@ -677,6 +677,13 @@
   integrity sha512-raB3v+2zq1TlQhzdhwwe3/WhEOul1mlXDyth2B6GewB1ORGHQzgwqjLRbVS95eXPrV1m1nXFk1IihtH3zaSDmQ==
   dependencies:
     "@wdio/logger" "6.0.11"
+
+"@wdio/utils@6.0.12":
+  version "6.0.12"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.0.12.tgz#7fee932deffdae999986d3970bde8794e550a64f"
+  integrity sha512-cjMo6Tcs0k6j+ENcT58uEQqzosoGbQcsouFscJnOw0oW8/26tZoShc5nXOKweqscVaqsTlVsoZLELi05sCI2Zw==
+  dependencies:
+    "@wdio/logger" "6.0.12"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
