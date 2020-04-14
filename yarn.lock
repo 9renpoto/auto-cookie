@@ -597,6 +597,16 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
+"@wdio/logger@6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-6.0.16.tgz#eef00e8369d8a5c86080a27d8bab41ad7dcdd2b2"
+  integrity sha512-VbH5UnQIG/3sSMV+Y38+rOdwyK9mVA9vuL7iOngoTafHwUjL1MObfN/Cex84L4mGxIgfxCu6GV48iUmSuQ7sqA==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/mocha-framework@^6.0.8":
   version "6.0.15"
   resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-6.0.15.tgz#cd14cf23e2886ddf30f864ce1f7360d6bd412e42"
@@ -650,11 +660,11 @@
     pretty-ms "^6.0.0"
 
 "@wdio/sync@^6.0.8":
-  version "6.0.15"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.0.15.tgz#f7d1e32b13d2e46e6316f1226e738fb92b3e4746"
-  integrity sha512-QjFnfBXbW8GX9PI1Z2yN2eLtgCjdf9+hHvkjGLodc+kjUxQBQrjMS6g6JEtLeFE5KshDfUCNYj4wKPw2wy5Qtg==
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-6.0.16.tgz#8d4ce648212fa9a452280cb3d1ba81036b5922f8"
+  integrity sha512-p7uXovsWb9lEYSXx3UkGB93JQVfy1psyJQwKgF3TZia2fv9hEk4V/tvZaSe25+DGwcHvolUekvKkD+5oSM2d/w==
   dependencies:
-    "@wdio/logger" "6.0.12"
+    "@wdio/logger" "6.0.16"
     fibers "^4.0.1"
 
 "@wdio/utils@6.0.13":
