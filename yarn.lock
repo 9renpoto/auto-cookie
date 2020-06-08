@@ -304,13 +304,13 @@
     tsutils "^3.17.1"
 
 "@wdio/cli@^6.0.9":
-  version "6.1.16"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.1.16.tgz#dba0e1c84b11e8b9361af4c3ecd1597be4f07629"
-  integrity sha512-q7JaEiLU2mdOibeKAQFqdWTS2evdkwgWSft1rmWDN7idiV39uncTTUcwlXBKE2a9yDk/8qn6EEXdBLthOCfyOA==
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.1.17.tgz#a4932ad0e3990fe2ae08a7f6fa0e8aecc402abf0"
+  integrity sha512-jEOaNNs3Rd/xUkdzgG/VREqu0CAoimUEVlT2UcN9Ab0p9zTcT6FPqZ7tfKtCyQ1wNczSFZ8VOA0qtwrPlOQibw==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
-    "@wdio/utils" "6.1.8"
+    "@wdio/utils" "6.1.17"
     async-exit-hook "^2.0.1"
     chalk "^4.0.0"
     chokidar "^3.0.0"
@@ -322,7 +322,7 @@
     lodash.pickby "^4.6.0"
     lodash.union "^4.6.0"
     log-update "^4.0.0"
-    webdriverio "6.1.16"
+    webdriverio "6.1.17"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
@@ -371,6 +371,13 @@
   resolved "https://registry.yarnpkg.com/@wdio/protocols/-/protocols-6.1.14.tgz#ac499b4b8777524c9de7ff054c96896927d2bac1"
   integrity sha512-UtRLQ55i23cLQRGtFiEJty1F6AbAfiSpfIxDAiXKHbw6Rp1StwxlqHFrhNe5F48Zu4hnie46t9N/tr/cZOe0kA==
 
+"@wdio/repl@6.1.17":
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-6.1.17.tgz#a611a93443fd7d5a08bf7968ce86f42f38e1a8e8"
+  integrity sha512-bGzzb+4IgFZ21QifMXPz7VHPidgEjSgWOTF3R2KMKc+FYRjqmje0VD00a0JRc/sh6Fc/BsLdCH8ud+RJBFHFFw==
+  dependencies:
+    "@wdio/utils" "6.1.17"
+
 "@wdio/repl@6.1.8":
   version "6.1.8"
   resolved "https://registry.yarnpkg.com/@wdio/repl/-/repl-6.1.8.tgz#05be98245e309073e052a8c12a317bc9c25ce8f6"
@@ -415,6 +422,13 @@
   dependencies:
     "@wdio/logger" "6.0.16"
     fibers "^4.0.1"
+
+"@wdio/utils@6.1.17":
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.1.17.tgz#99890c83dc856879c85894430e62eff56ee4d98d"
+  integrity sha512-CvXzRq7JeTiMKDyK52LlWghoCOXX1x5bx6tWOIPQh3S4eTQOCAogxVjhzrfgDNV/A+dfIkfByA6n8AifNbupPQ==
+  dependencies:
+    "@wdio/logger" "6.0.16"
 
 "@wdio/utils@6.1.8":
   version "6.1.8"
@@ -1750,6 +1764,20 @@ devtools@6.1.16:
     "@wdio/logger" "6.0.16"
     "@wdio/protocols" "6.1.14"
     "@wdio/utils" "6.1.8"
+    chrome-launcher "^0.13.1"
+    puppeteer-core "^3.0.0"
+    ua-parser-js "^0.7.21"
+    uuid "^8.0.0"
+
+devtools@6.1.17:
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.1.17.tgz#f3c8c67cbf50c73ae9c36eb54a9841ec90b0dd5a"
+  integrity sha512-6+jCq6b2gbC1sqivAgu7S/U2iMuSTkiIGoEG1RYI/zI21Nu0AyMJTdWDgnkiSzoUkR0NxCobCYzogsLXVTto6w==
+  dependencies:
+    "@wdio/config" "6.1.14"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.1.14"
+    "@wdio/utils" "6.1.17"
     chrome-launcher "^0.13.1"
     puppeteer-core "^3.0.0"
     ua-parser-js "^0.7.21"
@@ -6152,6 +6180,18 @@ webdriver@6.1.14:
     got "^11.0.2"
     lodash.merge "^4.6.1"
 
+webdriver@6.1.17:
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.1.17.tgz#669249677625d5e29caf90a2e3dab6ed2240eb9c"
+  integrity sha512-wtxKpq5FdQxu3wpakAMbsO5mdRAgjl0x4okrE7jm5RqE9voSh6TmyGdbb61YHmigQQVMhl6Mhq4+gCzaJfJfRQ==
+  dependencies:
+    "@wdio/config" "6.1.14"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.1.14"
+    "@wdio/utils" "6.1.17"
+    got "^11.0.2"
+    lodash.merge "^4.6.1"
+
 webdriverio@6.1.16:
   version "6.1.16"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.1.16.tgz#af5f52eb5dca16f394ea3987a270adb9fdc546db"
@@ -6173,6 +6213,28 @@ webdriverio@6.1.16:
     rgb2hex "^0.2.0"
     serialize-error "^7.0.0"
     webdriver "6.1.14"
+
+webdriverio@6.1.17:
+  version "6.1.17"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.1.17.tgz#83ae162299511c2ff06334d64a045d0014c1a8ce"
+  integrity sha512-mkV7FRjloyFI45BzZUGU8kAfrJCZluif7iC2Xsq9dx8qMyG/k7jUaE+IyDYP0i39hwswSAzGqDj1iGIifkK17Q==
+  dependencies:
+    "@wdio/config" "6.1.14"
+    "@wdio/logger" "6.0.16"
+    "@wdio/repl" "6.1.17"
+    "@wdio/utils" "6.1.17"
+    archiver "^4.0.1"
+    css-value "^0.0.1"
+    devtools "6.1.17"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    resq "^1.6.0"
+    rgb2hex "^0.2.0"
+    serialize-error "^7.0.0"
+    webdriver "6.1.17"
 
 webpack-cli@3.3.11:
   version "3.3.11"
