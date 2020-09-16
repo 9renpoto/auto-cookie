@@ -428,13 +428,6 @@
     "@wdio/logger" "6.4.7"
     fibers "^4.0.1"
 
-"@wdio/utils@6.4.7":
-  version "6.4.7"
-  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.4.7.tgz#d16ae490cc8f4448514c74316e35b31ef76e2192"
-  integrity sha512-zsDMhLSNReC9ZzQNuEak8sAlEbPyjI6FYLKdX/0vIZ5opgfdaPmTg4j2Y6g7PVg6heQMvP3Ecszdexnmm7UFRQ==
-  dependencies:
-    "@wdio/logger" "6.4.7"
-
 "@wdio/utils@6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.5.0.tgz#46398b08e6741eb97a57089b2c909622c480ea22"
@@ -3575,9 +3568,9 @@ lines-and-columns@^1.1.6:
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
 lint-staged@^10.1.1:
-  version "10.2.13"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.2.13.tgz#b9c504683470edfc464b7d3fe3845a5a1efcd814"
-  integrity sha512-conwlukNV6aL9SiMWjFtDp5exeDnTMekdNPDZsKGnpfQuHcO0E3L3Bbf58lcR+M7vk6LpCilxDAVks/DDVBYlA==
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.4.0.tgz#d18628f737328e0bbbf87d183f4020930e9a984e"
+  integrity sha512-uaiX4U5yERUSiIEQc329vhCTDDwUcSvKdRLsNomkYLRzijk3v8V9GWm2Nz0RMVB87VcuzLvtgy6OsjoH++QHIg==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
