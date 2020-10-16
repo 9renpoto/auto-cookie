@@ -1338,10 +1338,10 @@
   dependencies:
     "@wdio/utils" "6.6.3"
 
-"@wdio/reporter@6.6.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.6.0.tgz#900176a59fe275cbce41fca24de5879cf7c4c5fa"
-  integrity sha512-9qO1+3IGIr68IkgPoRoJBl+f2bnJKx/xKFKJhnLpzFLmc76tsQ35C9OAw+xZpwEb+j7sXGFLU7N8LDtN/ogFbQ==
+"@wdio/reporter@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-6.6.6.tgz#a94d96ee09a0178ade461c0dc139072155e7fd36"
+  integrity sha512-udCWCyMfNxAEyZutl0CYZwTeIFD9bgmu8+VJcZ5LDr+lbnpbW9OrYmvDfhKspm9jxfw0RbD/sV84UjIv2qierA==
   dependencies:
     fs-extra "^9.0.0"
 
@@ -1359,11 +1359,11 @@
     webdriverio "6.6.4"
 
 "@wdio/spec-reporter@^6.0.8":
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.6.3.tgz#16c2d4a5eee4ce2a6024c6edf32af394b34059c8"
-  integrity sha512-wNDwqaxvc3JrnxVoU3ubWbNXCh40I4hCM6iIxtIID7xetOw+k/jQgFfbL7jqs6VBU7gHNbQYBck0ZqVRj5JhdQ==
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-6.6.6.tgz#26227c54e9bcfd191a9703690ea7fe7f9d1381e5"
+  integrity sha512-pVAirLxe5O1m+9x/3mJlgTn6v40gDv+fjcpAkqdR7LcMziQO/zPEy3+wQ6Bp65PYWpad8q5mb2cfZceuIKJ8ww==
   dependencies:
-    "@wdio/reporter" "6.6.0"
+    "@wdio/reporter" "6.6.6"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -7840,34 +7840,6 @@ webdriver@6.6.3:
     "@wdio/utils" "6.6.3"
     got "^11.0.2"
     lodash.merge "^4.6.1"
-
-webdriverio@6.6.3:
-  version "6.6.3"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.6.3.tgz#8b74cf56ff2a5f16f904eb5bab34733f9238d60c"
-  integrity sha512-AU7+djfvWqZZxySVWMIKr2VRDuJi3C3WTanRq8j15KKsdMz4HvbPDY/q5MgiBUEyrZEkBYnrBZW7oi4eomS3SA==
-  dependencies:
-    "@types/puppeteer" "^3.0.1"
-    "@wdio/config" "6.6.3"
-    "@wdio/logger" "6.6.0"
-    "@wdio/repl" "6.6.3"
-    "@wdio/utils" "6.6.3"
-    archiver "^5.0.0"
-    atob "^2.1.2"
-    css-value "^0.0.1"
-    devtools "6.6.3"
-    fs-extra "^9.0.1"
-    get-port "^5.1.1"
-    grapheme-splitter "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    lodash.isobject "^3.0.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.zip "^4.2.0"
-    minimatch "^3.0.4"
-    puppeteer-core "^5.1.0"
-    resq "^1.6.0"
-    rgb2hex "^0.2.0"
-    serialize-error "^7.0.0"
-    webdriver "6.6.3"
 
 webdriverio@6.6.4:
   version "6.6.4"
