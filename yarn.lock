@@ -354,9 +354,9 @@
     eslint-visitor-keys "^2.0.0"
 
 "@wdio/cli@^6.0.9":
-  version "6.6.6"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.6.6.tgz#8d2d1d4b21a51d70f3ce28499cf5e5a141ec9e17"
-  integrity sha512-tirdaqPfc86e5VlgPmmFe9ekwS9et6G4DiB3aDiVvGvCoelRXAY1vOJKy/rKX4sH1lH5mOJHOPKZz6eRV5BV1g==
+  version "6.6.7"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.6.7.tgz#1312239b7d09a623e8c781f4bc0d8054fac03763"
+  integrity sha512-3nIGGigVTsn9ShlXXuIRdphx04VQcQW3YXzdP+VgtnVS0zbcpgQw3RR8Ra7xsCyM571V5PqlPwETUmbjbp5q6w==
   dependencies:
     "@wdio/config" "6.6.3"
     "@wdio/logger" "6.6.0"
@@ -373,7 +373,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.6.6"
+    webdriverio "6.6.7"
     yargs "^16.0.3"
     yarn-install "^1.0.0"
 
@@ -4855,34 +4855,6 @@ webdriver@6.6.3:
     "@wdio/utils" "6.6.3"
     got "^11.0.2"
     lodash.merge "^4.6.1"
-
-webdriverio@6.6.6:
-  version "6.6.6"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.6.6.tgz#750b594f5254cc0d5eb452251e5e08d10e93ad71"
-  integrity sha512-DzNSh9rx8iYFVr8gfs5q+/EwqXLEAWJSpog8cQZMABSxmooQKKpClRQ/j0dg2Lj2x7cDji69qvWDq0BtgUNzGw==
-  dependencies:
-    "@types/puppeteer" "^3.0.1"
-    "@wdio/config" "6.6.3"
-    "@wdio/logger" "6.6.0"
-    "@wdio/repl" "6.6.3"
-    "@wdio/utils" "6.6.3"
-    archiver "^5.0.0"
-    atob "^2.1.2"
-    css-value "^0.0.1"
-    devtools "6.6.3"
-    fs-extra "^9.0.1"
-    get-port "^5.1.1"
-    grapheme-splitter "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    lodash.isobject "^3.0.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.zip "^4.2.0"
-    minimatch "^3.0.4"
-    puppeteer-core "^5.1.0"
-    resq "^1.9.1"
-    rgb2hex "^0.2.0"
-    serialize-error "^7.0.0"
-    webdriver "6.6.3"
 
 webdriverio@6.6.7:
   version "6.6.7"
