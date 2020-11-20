@@ -4726,10 +4726,10 @@ traverse@^0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
 
-ts-loader@8.0.9:
-  version "8.0.9"
-  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.9.tgz#890fc25f49a99124268f4e738ed22d00f666dc37"
-  integrity sha512-rQd+iIfz5z4HSVzhhRFP4M2OQ0QmihilWWauYvvowBfnRvr4DW+gqA2om70xp/07EQj1qBkLMWobnXsgmWMbmg==
+ts-loader@8.0.11:
+  version "8.0.11"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.11.tgz#35d58a65932caacb120426eea59eca841786c899"
+  integrity sha512-06X+mWA2JXoXJHYAesUUL4mHFYhnmyoCdQVMXofXF552Lzd4wNwSGg7unJpttqUP7ziaruM8d7u8LUB6I1sgzA==
   dependencies:
     chalk "^2.3.0"
     enhanced-resolve "^4.0.0"
@@ -4907,19 +4907,6 @@ wdio-chromedriver-service@^6.0.1:
   dependencies:
     fs-extra "^9.0.0"
 
-webdriver@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.9.0.tgz#8b5fd445ef324b6f57cbda612292d00fc94c86e8"
-  integrity sha512-P0Hv1JJYi5k7ZcWi53yba4VSA0D45WcmDT5TGZPA0qEp5D1dwYuHMboQtlBXVRMUQaiu3+9zeEFfwahCR0A+aw==
-  dependencies:
-    "@types/lodash.merge" "^4.6.6"
-    "@wdio/config" "6.9.0"
-    "@wdio/logger" "6.8.0"
-    "@wdio/protocols" "6.8.0"
-    "@wdio/utils" "6.8.0"
-    got "^11.0.2"
-    lodash.merge "^4.6.1"
-
 webdriver@6.9.1:
   version "6.9.1"
   resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.9.1.tgz#1d4aabefd756e281fedb7591ca7e16619d6421f4"
@@ -4932,39 +4919,6 @@ webdriver@6.9.1:
     "@wdio/utils" "6.8.0"
     got "^11.0.2"
     lodash.merge "^4.6.1"
-
-webdriverio@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.9.0.tgz#ca8d4d4f0affe37da01f0b725c9bfb7e986e03f6"
-  integrity sha512-M+hIXCv9u7m2yktsvlYC9X9vDgNrPN9kyMeD3jQiJDcmURu3SCv774g1cg/tzgmZRiGTY3leltUxapHnRJqazQ==
-  dependencies:
-    "@types/archiver" "^3.1.1"
-    "@types/atob" "^2.1.2"
-    "@types/fs-extra" "^9.0.2"
-    "@types/lodash.clonedeep" "^4.5.6"
-    "@types/lodash.isplainobject" "^4.0.6"
-    "@types/puppeteer-core" "^2.0.0"
-    "@wdio/config" "6.9.0"
-    "@wdio/logger" "6.8.0"
-    "@wdio/repl" "6.8.0"
-    "@wdio/utils" "6.8.0"
-    archiver "^5.0.0"
-    atob "^2.1.2"
-    css-value "^0.0.1"
-    devtools "6.9.0"
-    fs-extra "^9.0.1"
-    get-port "^5.1.1"
-    grapheme-splitter "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    lodash.isobject "^3.0.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.zip "^4.2.0"
-    minimatch "^3.0.4"
-    puppeteer-core "^5.1.0"
-    resq "^1.9.1"
-    rgb2hex "^0.2.0"
-    serialize-error "^7.0.0"
-    webdriver "6.9.0"
 
 webdriverio@6.9.1:
   version "6.9.1"
