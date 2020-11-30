@@ -1533,24 +1533,6 @@ devtools-protocol@0.0.767361:
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.767361.tgz#5977f2558b84f9df36f62501bdddb82f3ae7b66b"
   integrity sha512-ziRTdhEVQ9jEwedaUaXZ7kl9w9TF/7A3SXQ0XuqrJB+hMS62POHZUWTbumDN2ehRTfvWqTPc2Jw4gUl/jggmHA==
 
-devtools@6.10.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.10.0.tgz#67f10e6dd6d6ae25ea0cef79d82a097c689bb1cd"
-  integrity sha512-IgnvglibbhK/hZY1kYpM4Q0yzz/EUlHNgI/jm2+a95LvqGjUVA74GGoopqZlmvXCREIGmiqdjVgDy14yeaNFAw==
-  dependencies:
-    "@types/puppeteer-core" "^2.0.0"
-    "@types/ua-parser-js" "^0.7.33"
-    "@types/uuid" "^8.3.0"
-    "@wdio/config" "6.10.0"
-    "@wdio/logger" "6.8.0"
-    "@wdio/protocols" "6.10.0"
-    "@wdio/utils" "6.8.0"
-    chrome-launcher "^0.13.1"
-    edge-paths "^2.1.0"
-    puppeteer-core "^5.1.0"
-    ua-parser-js "^0.7.21"
-    uuid "^8.0.0"
-
 devtools@6.10.2:
   version "6.10.2"
   resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.10.2.tgz#355531c7eee953312cecd1d68ae4792a4b084d1a"
@@ -4943,39 +4925,6 @@ webdriver@6.10.0:
     got "^11.0.2"
     lodash.merge "^4.6.1"
 
-webdriverio@6.10.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.10.0.tgz#bcfe81cc315c10e7f5992633fa41cb50a77a0415"
-  integrity sha512-/9rFbhNHd9zyacmgDlBiFm0OE5myy893x6Gw0+DFX8MnLDXIBL/Nsb19RnUyQCgfEED6Vs2ZE+r5m7ZbeWsvpA==
-  dependencies:
-    "@types/archiver" "^3.1.1"
-    "@types/atob" "^2.1.2"
-    "@types/fs-extra" "^9.0.2"
-    "@types/lodash.clonedeep" "^4.5.6"
-    "@types/lodash.isplainobject" "^4.0.6"
-    "@types/puppeteer-core" "^2.0.0"
-    "@wdio/config" "6.10.0"
-    "@wdio/logger" "6.8.0"
-    "@wdio/repl" "6.8.0"
-    "@wdio/utils" "6.8.0"
-    archiver "^5.0.0"
-    atob "^2.1.2"
-    css-value "^0.0.1"
-    devtools "6.10.0"
-    fs-extra "^9.0.1"
-    get-port "^5.1.1"
-    grapheme-splitter "^1.0.2"
-    lodash.clonedeep "^4.5.0"
-    lodash.isobject "^3.0.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.zip "^4.2.0"
-    minimatch "^3.0.4"
-    puppeteer-core "^5.1.0"
-    resq "^1.9.1"
-    rgb2hex "^0.2.0"
-    serialize-error "^7.0.0"
-    webdriver "6.10.0"
-
 webdriverio@6.10.2:
   version "6.10.2"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.10.2.tgz#d5edc0bfcbb4d5579821470bf480573131655c29"
@@ -5044,10 +4993,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.8.0.tgz#65f00a181708279ff982c2d7338e1dd5505364c4"
-  integrity sha512-X2yosPiHip3L0TE+ylruzrOqSgEgsdGyBOGFWKYChcwlKChaw9VodZIUovG1oo7s0ss6e3ZxBMn9tXR+nkPThA==
+webpack@5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.9.0.tgz#af2e9cf9d6c7867cdcf214ea3bb5eb77aece6895"
+  integrity sha512-YnnqIV/uAS5ZrNpctSv378qV7HmbJ74DL+XfvMxzbX1bV9e7eeT6eEWU4wuUw33CNr/HspBh7R/xQlVjTEyAeA==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
