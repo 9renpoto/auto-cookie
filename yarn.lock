@@ -339,9 +339,9 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
 
 "@types/mocha@^8.0.0":
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.2.0.tgz#3eb56d13a1de1d347ecb1957c6860c911704bc44"
-  integrity sha512-/Sge3BymXo4lKc31C8OINJgXLaw+7vL1/L1pGiBNpGrBiT8FQiaFpSYV0uhTaG4y78vcMBTMFsWaHDvuD+xGzQ==
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.2.1.tgz#f3f3ae4590c5386fc7c543aae9b78d4cf30ffee9"
+  integrity sha512-NysN+bNqj6E0Hv4CTGWSlPzMW6vTKjDpOteycDkV4IWBsO+PU48JonrPzV9ODjiI2XrjmA05KInLgF5ivZ/YGQ==
 
 "@types/node@*":
   version "10.3.6"
@@ -696,13 +696,6 @@
   dependencies:
     got "^11.8.1"
 
-"@wdio/types@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.0.3.tgz#b5758c31abf20cf4f3efe843287aafa5594cce4e"
-  integrity sha512-FUcxZorU0RrG9OkzBdoF8DYWvznYI5ttJIbrWU87GMkBJCmdqyoVHUaLOj2NoyaqaB3wHaIpruK9/2n5hfUFtA==
-  dependencies:
-    got "^11.8.1"
-
 "@wdio/types@7.0.4":
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.0.4.tgz#52c520d82477e57c595b197cb4b1bc1aa7cf3ad7"
@@ -723,14 +716,6 @@
   integrity sha512-vf0sOQzd28WbI26d6/ORrQ4XKWTzSlWLm9W/K/eJO0NASKPEzR+E+Q2kaa+MJ4FKXUpjbt+Lxfo+C26TzBk7tg==
   dependencies:
     "@wdio/logger" "6.10.10"
-
-"@wdio/utils@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.0.3.tgz#db3f350db889ff03654b63619f643d11ec6702ae"
-  integrity sha512-vmYodgQeqVCzOF1fSRA1R3ohE8ui1g2HrRixMR5oukFc+88o4opdnjFhV6n9FLtHDkIKqaJ+WTBTj0RHGzb22A==
-  dependencies:
-    "@wdio/logger" "7.0.0"
-    "@wdio/types" "7.0.3"
 
 "@wdio/utils@7.0.4":
   version "7.0.4"
