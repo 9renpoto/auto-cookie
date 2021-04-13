@@ -614,15 +614,25 @@
     loglevel-plugin-prefix "^0.8.4"
     strip-ansi "^6.0.0"
 
+"@wdio/logger@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/logger/-/logger-7.4.1.tgz#13c5f056734e47207b46732e1eb4a727cfb665f3"
+  integrity sha512-l0oGQLTbaLcpy8yq617E5VtrJOogR/PGG9MKisXbPg2t8pZF7npjlZ4RfWSTnphNwrU8KgZwek5z2bvIYt1eqg==
+  dependencies:
+    chalk "^4.0.0"
+    loglevel "^1.6.0"
+    loglevel-plugin-prefix "^0.8.4"
+    strip-ansi "^6.0.0"
+
 "@wdio/mocha-framework@^7.0.0":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.3.1.tgz#ac1b6232ad12d793b7eea5f1e8065df6a2eebb8c"
-  integrity sha512-wxtSq8ntB2VhWr8AJMRpTC3LIVPIcMsySbstrw8fufOCEzwYdSzQ9SYTs6BjXqeh5XV8mthYPSSUKJrqoQaOnA==
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/mocha-framework/-/mocha-framework-7.4.1.tgz#3161547b3fc9dd2966c7e72472053f95d17643ba"
+  integrity sha512-Yd3C32RZ2nNsD62R48/JLNgdvqP8RsiM0VwUS0ik84MqGpyJKbZSeWh/iu14sXOwCGR4rHp0r9Fb9W43L/i+bw==
   dependencies:
     "@types/mocha" "^8.0.0"
-    "@wdio/logger" "7.0.0"
-    "@wdio/types" "7.3.1"
-    "@wdio/utils" "7.3.1"
+    "@wdio/logger" "7.4.1"
+    "@wdio/types" "7.4.1"
+    "@wdio/utils" "7.4.1"
     expect-webdriverio "^2.0.0"
     mocha "^8.0.1"
 
@@ -715,6 +725,13 @@
   dependencies:
     got "^11.8.1"
 
+"@wdio/types@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.4.1.tgz#b87dcbd39e8798275586520c4754ff1f89c2e22d"
+  integrity sha512-lJMbu/SzjAYberyXnRwmKjEe+iIffBxu+2IMCzXmHgzxQ5eGHoqgQasCYwp9CDI1mWem1Ccrpw/iHiiqnAUzNQ==
+  dependencies:
+    got "^11.8.1"
+
 "@wdio/utils@6.10.11":
   version "6.10.11"
   resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-6.10.11.tgz#4cdbedcf30d53fbeb97699d7cbe3d9d1be6c443f"
@@ -736,6 +753,14 @@
   dependencies:
     "@wdio/logger" "7.0.0"
     "@wdio/types" "7.3.1"
+
+"@wdio/utils@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/utils/-/utils-7.4.1.tgz#2d6a0bfbc7f72a684e1f439a2d9f23615155ef70"
+  integrity sha512-2Jr0XG5G2SvsRx5YJfUmJmycOJH4aDqn4QnbZQ8QBsdaA5bjJZHO5gahyd2bAeT+ckwgdv5/eKB46DXq4Gurow==
+  dependencies:
+    "@wdio/logger" "7.4.1"
+    "@wdio/types" "7.4.1"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
