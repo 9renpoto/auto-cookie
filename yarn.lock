@@ -662,13 +662,13 @@
   dependencies:
     "@wdio/utils" "7.3.1"
 
-"@wdio/reporter@7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.3.1.tgz#59b0011787d8df18bc4488981b5de501c861852f"
-  integrity sha512-VsZGuYrM12oVSJjEyvyqFKttjRDa7tPoY88KMGe0+jk4Hd+sfQjs4101XAo781Wt9/sqt59f1saVd9Cv20iMOg==
+"@wdio/reporter@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.4.1.tgz#ed69e2f5a949b7d5a760388e56347cd0f7efc61a"
+  integrity sha512-Z+DsU6zv6ylS28vbc7EUY4cjDLdizq3FD6VH1kB8Q2OKz1XHB4ZQVwvCNZl/v27rijCqOB5OGbpQNWy/eFDJQA==
   dependencies:
     "@types/cucumber" "^6.0.1"
-    "@wdio/types" "7.3.1"
+    "@wdio/types" "7.4.1"
     fs-extra "^9.0.0"
 
 "@wdio/runner@6.10.13":
@@ -685,13 +685,13 @@
     webdriverio "6.10.11"
 
 "@wdio/spec-reporter@^7.0.0":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.3.1.tgz#9f0c369f42255cf18e9551619ef1617967ade07f"
-  integrity sha512-YIDhykFGctcKFtO5BsNght9PapbY/Wyb7VKTKcbceE3YyxpnhpQ9rQO65KTOJogu/Fxy/qO14XavzDezc+Ybbw==
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.4.1.tgz#e03ac2cc188f6c6601f307d77e1700df72017108"
+  integrity sha512-f6KW7an7mt0BGo9RMUyV1qYxg58C9wln7GLYz/cPDqM4Gh+sPjVqfBxdILuaH73a+1xQjXflLFwktk5KeRK8Fg==
   dependencies:
     "@types/easy-table" "^0.0.32"
-    "@wdio/reporter" "7.3.1"
-    "@wdio/types" "7.3.1"
+    "@wdio/reporter" "7.4.1"
+    "@wdio/types" "7.4.1"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -712,6 +712,13 @@
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.3.1.tgz#caac699a33df160ab8e057f71990cbfe8191050f"
   integrity sha512-bRsVN8neezagQLwPIp5nJP8g9mYoGeAeWrh1Ooyrqlg9iPi/a2QzLMiUqWtg1e4cUGal/bh+aKMXcAWSFxooLQ==
+  dependencies:
+    got "^11.8.1"
+
+"@wdio/types@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.4.1.tgz#b87dcbd39e8798275586520c4754ff1f89c2e22d"
+  integrity sha512-lJMbu/SzjAYberyXnRwmKjEe+iIffBxu+2IMCzXmHgzxQ5eGHoqgQasCYwp9CDI1mWem1Ccrpw/iHiiqnAUzNQ==
   dependencies:
     got "^11.8.1"
 
