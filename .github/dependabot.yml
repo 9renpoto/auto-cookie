@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 99
+  reviewers:
+  - 9renpoto
+  ignore:
+  - dependency-name: "@wdio/spec-reporter"
+    versions:
+    - 7.4.1
+    - 7.4.3
+  - dependency-name: "@wdio/mocha-framework"
+    versions:
+    - 7.4.1
+  - dependency-name: webpack
+    versions:
+    - 5.24.1
+    - 5.26.0
+    - 5.27.2
+  - dependency-name: "@wdio/local-runner"
+    versions:
+    - 6.12.1
+  - dependency-name: "@wdio/sync"
+    versions:
+    - 7.4.5
