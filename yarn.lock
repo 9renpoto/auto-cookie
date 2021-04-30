@@ -662,13 +662,13 @@
   dependencies:
     "@wdio/utils" "7.5.2"
 
-"@wdio/reporter@7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.3.1.tgz#59b0011787d8df18bc4488981b5de501c861852f"
-  integrity sha512-VsZGuYrM12oVSJjEyvyqFKttjRDa7tPoY88KMGe0+jk4Hd+sfQjs4101XAo781Wt9/sqt59f1saVd9Cv20iMOg==
+"@wdio/reporter@7.5.3":
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.5.3.tgz#2e31c4499fb94bea0f9a78c53a6acad8aeb4fec8"
+  integrity sha512-gR2mjMKqYjTYMndYkq3WOBodeGbymRaXCeGvPW5FFXADEkymMzpt2Grw7enHFJrxJq5lJKyd51wItRAONMjhvQ==
   dependencies:
     "@types/cucumber" "^6.0.1"
-    "@wdio/types" "7.3.1"
+    "@wdio/types" "7.5.3"
     fs-extra "^9.0.0"
 
 "@wdio/runner@6.10.13":
@@ -685,13 +685,13 @@
     webdriverio "6.10.11"
 
 "@wdio/spec-reporter@^7.0.0":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.3.1.tgz#9f0c369f42255cf18e9551619ef1617967ade07f"
-  integrity sha512-YIDhykFGctcKFtO5BsNght9PapbY/Wyb7VKTKcbceE3YyxpnhpQ9rQO65KTOJogu/Fxy/qO14XavzDezc+Ybbw==
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.5.3.tgz#de174dea21a2167ff1ed0528db6c227c202513ff"
+  integrity sha512-2i2kjBP5+qfe2IVJESPbCVo6idPuQsBdktDcFh7ZkFppfZNARNHMaFY9zxCIoB47L5qtTuIe60I1+BoQ/3Xw4A==
   dependencies:
     "@types/easy-table" "^0.0.32"
-    "@wdio/reporter" "7.3.1"
-    "@wdio/types" "7.3.1"
+    "@wdio/reporter" "7.5.3"
+    "@wdio/types" "7.5.3"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -708,17 +708,17 @@
     fibers "^5.0.0"
     webdriverio "7.5.2"
 
-"@wdio/types@7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.3.1.tgz#caac699a33df160ab8e057f71990cbfe8191050f"
-  integrity sha512-bRsVN8neezagQLwPIp5nJP8g9mYoGeAeWrh1Ooyrqlg9iPi/a2QzLMiUqWtg1e4cUGal/bh+aKMXcAWSFxooLQ==
-  dependencies:
-    got "^11.8.1"
-
 "@wdio/types@7.5.2":
   version "7.5.2"
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.5.2.tgz#9f41ee6f175a91c1d213efc020cbf52162b723cb"
   integrity sha512-HNQxeQZxNf9Ky3r8gFuwTZOk11XGxCm+K6m2KWd9dbb6UQAVlWYp1W8Ct+YoNl9q3wA/OK9X/tBeY6bYoAeN9A==
+  dependencies:
+    got "^11.8.1"
+
+"@wdio/types@7.5.3":
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.5.3.tgz#9239b00fd2c2ef75f7a6bda965b5be0855d97f7e"
+  integrity sha512-jmumhKBhNDABnpmrshYLEcdE9WoP5tmynsDNbDABlb/W8FFiLySQOejukhYIL9CLys4zXerV3/edks0SCzHOiQ==
   dependencies:
     got "^11.8.1"
 
