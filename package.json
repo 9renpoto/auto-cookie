@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@9renpoto/eslint-config-typescript": "^7.0.3",
-    "@types/finalhandler": "1.1.0",
+    "@types/finalhandler": "1.1.1",
     "@types/js-cookie": "2.2.6",
     "@types/mocha": "^8.0.0",
     "@types/power-assert": "1.5.3",
